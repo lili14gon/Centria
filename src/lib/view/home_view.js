@@ -176,7 +176,7 @@ export default (data) => {
  const centriaSalas = divElem.querySelector('#centria-salas');
 
 
-  contenidoModal.innerHTML = `<label>${dia} ${(months[d.getMonth()])}</label>`;
+  contenidoModal.innerHTML = `<label class="mes">${dia} ${(months[d.getMonth()])}</label>`;
   data.forEach((element) => {
     //   console.log(element.Nombres);
     //   console.log(element.FechaNacimiento);
